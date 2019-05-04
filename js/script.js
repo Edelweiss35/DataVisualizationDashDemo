@@ -65,10 +65,3 @@ $('.button-text-active-survey, .active-survey').click(function () {
 	$('.empty-survey-list').show()
 })
 
-$('.button-text-inactive-survey, .inactive-survey').click(function () {
-	$('.content').addClass('fadeOut')
-	setTimeout(function () {
-		$('.content').hide()
-	},200)
-	$('.empty-survey-list').show()
-})
